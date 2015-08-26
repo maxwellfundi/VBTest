@@ -26,9 +26,9 @@ Partial Class frmRegistration
         Me.lblLastName = New System.Windows.Forms.Label()
         Me.lblEmailAddress = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtFirstName = New System.Windows.Forms.TextBox()
+        Me.txtEmail = New System.Windows.Forms.TextBox()
+        Me.txtLastName = New System.Windows.Forms.TextBox()
         Me.btnSave = New System.Windows.Forms.Button()
         Me.btnClose = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
@@ -63,10 +63,10 @@ Partial Class frmRegistration
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.TextBox1)
-        Me.GroupBox1.Controls.Add(Me.TextBox4)
+        Me.GroupBox1.Controls.Add(Me.txtFirstName)
+        Me.GroupBox1.Controls.Add(Me.txtEmail)
         Me.GroupBox1.Controls.Add(Me.lblFirstName)
-        Me.GroupBox1.Controls.Add(Me.TextBox2)
+        Me.GroupBox1.Controls.Add(Me.txtLastName)
         Me.GroupBox1.Controls.Add(Me.lblLastName)
         Me.GroupBox1.Controls.Add(Me.lblEmailAddress)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -77,26 +77,26 @@ Partial Class frmRegistration
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Personal Details"
         '
-        'TextBox1
+        'txtFirstName
         '
-        Me.TextBox1.Location = New System.Drawing.Point(124, 19)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 4
+        Me.txtFirstName.Location = New System.Drawing.Point(124, 19)
+        Me.txtFirstName.Name = "txtFirstName"
+        Me.txtFirstName.Size = New System.Drawing.Size(100, 20)
+        Me.txtFirstName.TabIndex = 4
         '
-        'TextBox4
+        'txtEmail
         '
-        Me.TextBox4.Location = New System.Drawing.Point(124, 76)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox4.TabIndex = 4
+        Me.txtEmail.Location = New System.Drawing.Point(124, 76)
+        Me.txtEmail.Name = "txtEmail"
+        Me.txtEmail.Size = New System.Drawing.Size(100, 20)
+        Me.txtEmail.TabIndex = 4
         '
-        'TextBox2
+        'txtLastName
         '
-        Me.TextBox2.Location = New System.Drawing.Point(124, 45)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 4
+        Me.txtLastName.Location = New System.Drawing.Point(124, 45)
+        Me.txtLastName.Name = "txtLastName"
+        Me.txtLastName.Size = New System.Drawing.Size(100, 20)
+        Me.txtLastName.TabIndex = 4
         '
         'btnSave
         '
@@ -136,9 +136,9 @@ Partial Class frmRegistration
     Friend WithEvents lblLastName As Label
     Friend WithEvents lblEmailAddress As Label
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtFirstName As TextBox
+    Friend WithEvents txtEmail As TextBox
+    Friend WithEvents txtLastName As TextBox
     Friend WithEvents btnSave As Button
     Friend WithEvents btnClose As Button
 End Class
